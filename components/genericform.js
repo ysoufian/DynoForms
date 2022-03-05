@@ -22,6 +22,7 @@ export default function GenericForm(props2) {
     return (
         <div className={styles.card}>
             <Formik
+             
                 initialValues={{ password: '', email: '' }}
                 onSubmit={handleSubmit}
             >
